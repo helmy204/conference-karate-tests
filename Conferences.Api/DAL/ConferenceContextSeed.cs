@@ -35,6 +35,7 @@ public class ConferenceContextSeed
                 Date = new DateTime(DateTime.Now.Year, 5, 15),
                 Overview = "Overview for Tech Conference " + DateTime.Now.Year,
                 Location = "Riyadh",
+                IsPublished = true,
                 UserId= 2
             },
             new Conference()
@@ -44,6 +45,7 @@ public class ConferenceContextSeed
                 Date = new DateTime(DateTime.Now.Year, 8, 20),
                 Overview = "Overview for Data Summit",
                 Location = "Cairo",
+                IsPublished = false,
                 UserId= 2
             }
         };

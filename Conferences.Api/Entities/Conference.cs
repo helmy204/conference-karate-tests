@@ -7,6 +7,7 @@ namespace Conferences.Api.Entities
         public DateTime Date { get; set; }
         public string Overview { get; set; }
         public string Location { get; set; }
+        public bool IsPublished { get; set; }
 
         public int UserId { get; set; } 
     }
